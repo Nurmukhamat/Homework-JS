@@ -1,0 +1,12 @@
+.photo1 {
+    width: 500px;
+    height: 700px;
+}
+.photo2 {
+    width: 500px;
+    height: 700px;
+    transform: rotate(-90deg);
+    position: relative;
+    margin-left: 150px;
+    top: -100px;
+}
