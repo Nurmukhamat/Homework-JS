@@ -1,40 +1,34 @@
-const fruits = ["strawbery", "mango", "watermelon", "grapes", "Lemon", "Kiwi"]
-console.log(fruits);
-fruits.sort();
-console.log(fruits);
+//! task1
+// setInterval(function() {
+//     document.getElementById("myspan").innerHTML = "Урааа";
+// }, 10000);
 
-const user = ["strawbery", "mango", "watermelon", "grapes", "Lemon", "Kiwi"]
-console.log(user);
-user.sort().reverse();
-console.log(user);
-
-const grades = [4, 4, 4, 5, 3, 5, 3, 3, 2, 5, 1];
-console.log(grades);
-grades.sort();
-console.log(grades);
-
-const computers = [
-  {
-    title: "Macbook Air Al",
-    price: 85000,
-  },
-  {
-    title: "Dell",
-    price: "65000",
-  },
-  {
-    title: "Asus ZenBook",
-    price: "40000",
-  },
-  {
-    title: "Acer Aspire",
-    price: 45000,
-  },
-  {
-    title: "Macbook Pro",
-    price: 100000,
-  },
-];
-console.log(computers);
-computers.sort().reverse
-console.log(computers);
+//! task2
+// const i = setInterval(
+//     function () {
+//       var randomColor = Math.floor(Math.random()*16777215).toString(16);
+//       document.getElementById("background").style.backgroundColor = "#"+randomColor;
+//     },500);
+//     setTimeout(function() { clearInterval(i); }, 60000);
+    
+//! task3
+// document.addEventListener('DOMContentLoaded', function () {
+//     let timeInput = document.querySelector('.time-input');
+//     let timeButton = document.querySelector('.time-button')
+//     let timeBlock = document.querySelector('.time-block');
+//     function inputTime() {
+//       timeBlock.textContent = timeInput.value;
+//     }
+//     let timerID;
+//     function start() {
+//       clearInterval(timerID); 
+//       let time = parseInt(timeInput.value); 
+//       timerID = setInterval(function() {
+//         const res = --time; 
+//         timeBlock.textContent = res; 
+//         if (!res) clearInterval(timerID);
+//       }, 1000)
+//     }
+//     timeButton.addEventListener('click', start);
+//     timeInput.addEventListener('input', inputTime);
+//     });
